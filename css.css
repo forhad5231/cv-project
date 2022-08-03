@@ -1,0 +1,96 @@
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: #EEE;
+            font-family: 'Edu VIC WA NT Beginner', cursive;
+        }
+        .container{
+            max-width: 1000px;
+            background-color: #cdfff7;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .forhad{
+            width: 110px;
+            height: 110px;
+            border: 0.1 white solid;
+            float: left;
+        }
+        .forhad-bio{
+            float: left;
+            padding: 10px;
+        }
+        h1, h2, h3, h4, h5, h6{
+            color: #11999e;
+        }
+        .forhad-contact{
+            float: right; 
+            padding: 20px;  
+        }
+        .forhad-contact p a{
+            text-decoration: none;
+            color: teal;
+            font-weight: bold;
+        }
+        .forhad-contact p a:hover{
+            text-decoration: underline;
+            color: tomato;
+        }
+        .div-clear{
+            clear: both;
+        }
+        hr{
+            border: 1px black solid;
+            width: 100%;
+            margin: 10px auto;
+        }
+        /*-----------------------------
+        personal section start
+        -----------------------------*/
+        #personal-section{
+
+        }
+        .content{
+
+        }
+        .left-div{
+            width: 30%;
+            float: left;
+        }
+        .right-div{
+            width: 70%;
+            float: left;
+        }
+        .common-hr{
+            border: black 1px solid;
+            border-bottom: none;
+            width: 100%;
+            margin: 20px auto;
+        }
+        /*-education section start-*/
+        .education-left{
+            float: left;
+        }
+        .education-right{
+            float: right;
+        }
+        .right-div ul{
+            padding-left: 19px;
+        }
+        /*-footer section start-*/
+        .bottom{
+            background-color: black;
+            text-align: center;
+        }
+        .bottom a{
+            color: white;
+            padding:7px;
+            text-decoration: none;
+        }
+        .bottom p{
+            color: white;
+            margin-top: 20px;
+        }
